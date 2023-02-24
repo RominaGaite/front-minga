@@ -1,0 +1,46 @@
+.navbar-box{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.menuHamburgesa{
+    width: 57px;
+    height: 55px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border:transparent;
+    }
+
+.logo-nav{
+    width: 88px;
+    height: 88px;
+    margin: 1rem;
+    
+}   
+ @media (min-width:320px) and (max-width:1020px){
+    .navbar-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menuHamburgesa{
+        width: 50px;
+        height: 50px;
+        border:transparent;
+        margin-left: 0.1rem;
+        }
+    
+    .logo-nav{
+        width: 50px;
+        height: 50px;
+        margin: 1rem;
+    }   
+ }
+  
