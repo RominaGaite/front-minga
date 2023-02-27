@@ -1,6 +1,6 @@
 .divBoton {
   width: 90vw;
-  height: 65vh;
+  height: 53vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../../../public/backgrounnaruto.png);
     background-repeat: no-repeat;
@@ -9,18 +9,18 @@
   flex-direction: column;
   justify-content: center;
   align-items:flex-start;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .titulo-explore {
-  margin: 1rem;
-  width: 100vw;
+ 
+  width: 70vw;
   height: 61px;
   font-family: "Montserrat";
   font-style: bold;
-  font-weight: 700;
-  font-size: 54px;
+  font-size: 3rem;
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   text-align: center;
   color: #ffffff;
 }
@@ -30,9 +30,7 @@
   height: 23px;
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 400;
   font-size: 24px;
-  line-height: 95.19%;
   display: flex;
   align-items: center;
   color: #ffffff;
@@ -43,9 +41,7 @@
   height: 15px;
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 600;
   font-size: 16px;
-  line-height: 95.19%;
   display: flex;
   align-items: center;
   color: #ffffff;

@@ -2,12 +2,36 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    /*border: solid 1px blue;*/
 }
+
 .app-container{
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
     overflow-x: hidden;
+}
+
+.divForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.img-form{
+    width: 50%;
+    background: 
+    url(/public/Rectangle\ 81.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width:900px){
+    .img-form{
+      display: none;
+    }
 }

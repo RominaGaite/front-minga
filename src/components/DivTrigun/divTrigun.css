@@ -2,24 +2,24 @@
 
 .divTrigun{
     width: 90vw;
-    height: 35vh;
+    height: 30vh;
     border-radius: 6px;
     display: flex;
     flex-direction: row;
-    margin-top: 7rem;
+    margin-top: 5.5rem;
     justify-content:space-between ;
     background: linear-gradient(153.39deg, #F9a8D4 -13.9%, #F472B6 58.69%);
 }
 .imgPersCampRoja{
     position: relative;
-    width: 250px;
-    height: 280px;
+    width: 220px;
+    height: 230px;
     top:-35px;
     
 }
 .portadaImagen{
     position: relative;
-    width: 180px;
+    width: 150px;
     border-radius: 6px;
     top:-35px;
 }
@@ -53,6 +53,7 @@
     
 }
 .textoTrigun{
+    width: 300px;
     margin: 5px;
     font-family: 'Montserrat', sans-serif;
     color: white;
